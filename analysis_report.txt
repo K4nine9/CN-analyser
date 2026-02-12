@@ -1,0 +1,560 @@
+ Analysis Report for datas/notes-00000.tsv
+ Total Rows: 2392862
+ Total Columns: 24
+ ------------------------------
+ 
+ Column: noteId
+ Type: int64
+ Non-Null Count: 2392862
+ Null Count: 0
+ Unique Values: 2392862
+ Top 20 Frequent Values:
+   1783179305159200982: 1 (0.00%)
+   1783181538789605871: 1 (0.00%)
+   1783182562279494134: 1 (0.00%)
+   1883711635770196070: 1 (0.00%)
+   1537142913737428992: 1 (0.00%)
+   1537145358521839617: 1 (0.00%)
+   1537147343715282945: 1 (0.00%)
+   1537204430730211328: 1 (0.00%)
+   1540422295029551104: 1 (0.00%)
+   1586769867381669889: 1 (0.00%)
+   1599066819402162177: 1 (0.00%)
+   1640795953472114688: 1 (0.00%)
+   2019588437708247361: 1 (0.00%)
+   1780256247847248236: 1 (0.00%)
+   1799852710981988670: 1 (0.00%)
+   1853800992216944809: 1 (0.00%)
+   1857827485792219429: 1 (0.00%)
+   1871265868375875960: 1 (0.00%)
+   1877730920649933036: 1 (0.00%)
+   1897079272080109614: 1 (0.00%)
+   ... and 2392842 more unique values.
+ Numerical Statistics:
+   count: 2392862.0
+   mean: 1.839542660740198e+18
+   std: 1.0463718802788616e+17
+   min: 1.354586938863444e+18
+   25%: 1.7683119901920832e+18
+   50%: 1.8420587060093914e+18
+   75%: 1.9134354158860462e+18
+   max: 2.02012059339638e+18
+ ------------------------------
+ 
+ Column: noteAuthorParticipantId
+ Type: str
+ Non-Null Count: 2392862
+ Null Count: 0
+ Unique Values: 305666
+ Top 20 Frequent Values:
+   111F4A03D7F1923DCEC73DD8595474B5BFA1C4E88D3224D24348DD08B82C38D9: 55145 (2.30%)
+   F735563C1D6CACAE98B239A5BF3B6B29334E5A32093D655B66C4A4A96408409D: 8899 (0.37%)
+   CDC12505AEEBDB548211BC659BE532ED1FC2C418D2D803EDC24C4C10D68BEC87: 5382 (0.22%)
+   6F8D01FAFA94F6F5B60F1D81D5CD23AAFFC7683B8DA2810B575074B4F2F07A07: 5328 (0.22%)
+   FB0A2AC0C3123C8A9119C7DD1A1B03D99BC001DF50B592C8258FFFEC77356360: 5319 (0.22%)
+   EE7192EF0B1C47D8A3430C3E070DA2A0BFAA58717F9133404318E9D7666B1A00: 4912 (0.21%)
+   43147E26944271986AB001D4D545EBB9E19C7DD37AA78CE91A2D08008811B243: 4681 (0.20%)
+   321BEBF06B9C14296569E1A26D2EB521A2B16AB2039AB99CDF8716BB34DD293D: 4655 (0.19%)
+   8E0782E7F593AE43DE132F9A686B9623FE5078AF96C0655960B8BBFA4E740320: 4518 (0.19%)
+   2A6B630D0AEA2ACC36E2189A989B042C8F44788D5C6526EF4EAC8856A79A73D8: 4250 (0.18%)
+   8BBA91C4957E89E3F3E7375E11B946CC2326AC39FC2BFFD5359824DDE642711C: 3865 (0.16%)
+   458A702572D521147D5DB8E1015DA966FBA6C3183FFA76E981A4588032ADE52B: 3171 (0.13%)
+   1F19112D4D120B3E8A09EC0F1C770B1E52020173A9CEEAFE49D21A6305D49B79: 3105 (0.13%)
+   F4D2E4CA66E08B99BDDE8328BBF4C2313B853B3595C8AC38600E463328C72D9D: 3000 (0.13%)
+   3081CC1AF08CF496B9AC7BE8C8BDF1108C753934F06590D79355F31A9D98239B: 2992 (0.13%)
+   41A6243EF0C5E2F69F5A0D4006A468F4F7CBEC237CAE6ACCC5FB56ED687492FE: 2668 (0.11%)
+   4ABE6203F10279A89C2A3C09E70B746A68D327698E0FC5F06B79365FFE86469B: 2646 (0.11%)
+   1EE85F72355851C87FDDE84506361E48C52AAB618F239EC99E1F5839BA5B0BF4: 2631 (0.11%)
+   22F149AE0AB24E887FD1A9D870D34A4E9FA8E98F0A96FA98832F90C9E5991723: 2526 (0.11%)
+   CE7343FC743D4E7C1FAEA56CA165CB7D7D215C5D4998CE1CFF815B7E5688F59D: 2423 (0.10%)
+   ... and 305646 more unique values.
+ ------------------------------
+ 
+ Column: createdAtMillis
+ Type: int64
+ Non-Null Count: 2392862
+ Null Count: 0
+ Unique Values: 2392796
+ Top 20 Frequent Values:
+   1723368582770: 2 (0.00%)
+   1710357505519: 2 (0.00%)
+   1729348321401: 2 (0.00%)
+   1720695964871: 2 (0.00%)
+   1754002417217: 2 (0.00%)
+   1754002417223: 2 (0.00%)
+   1726030632995: 2 (0.00%)
+   1737136409091: 2 (0.00%)
+   1724345750162: 2 (0.00%)
+   1720478016733: 2 (0.00%)
+   1722520762397: 2 (0.00%)
+   1705967833697: 2 (0.00%)
+   1742231627765: 2 (0.00%)
+   1713979218150: 2 (0.00%)
+   1749452725388: 2 (0.00%)
+   1709970215795: 2 (0.00%)
+   1736010718216: 2 (0.00%)
+   1737175730924: 2 (0.00%)
+   1696813525081: 2 (0.00%)
+   1730892100902: 2 (0.00%)
+   ... and 2392776 more unique values.
+ Numerical Statistics:
+   count: 2392862.0
+   mean: 1727416122027.4067
+   std: 24947449690.705105
+   min: 1611793667892.0
+   25%: 1710433406769.25
+   50%: 1728015993965.5
+   75%: 1745033527714.75
+   max: 1770469256149.0
+ ------------------------------
+ 
+ Column: tweetId
+ Type: int64
+ Non-Null Count: 2392862
+ Null Count: 0
+ Unique Values: 1575536
+ Top 20 Frequent Values:
+   1694886846050771321: 83 (0.00%)
+   1755734526678925682: 70 (0.00%)
+   1719077000483066319: 67 (0.00%)
+   1754939251257475555: 61 (0.00%)
+   1817765530255659127: 61 (0.00%)
+   1886535630265418191: 60 (0.00%)
+   1748494179640971482: 60 (0.00%)
+   1859656862628708737: 58 (0.00%)
+   1816974609637417112: 57 (0.00%)
+   2014819683757678654: 57 (0.00%)
+   1812256998588662068: 55 (0.00%)
+   1815080881981190320: 55 (0.00%)
+   1828932387117392265: 52 (0.00%)
+   1756888470599967000: 51 (0.00%)
+   1354848253729234944: 50 (0.00%)
+   1871511203937227002: 46 (0.00%)
+   1880650074365247747: 46 (0.00%)
+   1730587560726892883: 45 (0.00%)
+   1796665674535711051: 43 (0.00%)
+   1760446632678834540: 43 (0.00%)
+   ... and 1575516 more unique values.
+ Numerical Statistics:
+   count: 2392862.0
+   mean: 1.8375006167078848e+18
+   std: 1.0854415303001078e+17
+   min: 20.0
+   25%: 1.7668733123485558e+18
+   50%: 1.840925879962358e+18
+   75%: 1.912235256881698e+18
+   max: 2.020111127204557e+18
+ ------------------------------
+ 
+ Column: classification
+ Type: str
+ Non-Null Count: 2392862
+ Null Count: 0
+ Unique Values: 2
+ Top 20 Frequent Values:
+   MISINFORMED_OR_POTENTIALLY_MISLEADING: 1870657 (78.18%)
+   NOT_MISLEADING: 522205 (21.82%)
+ ------------------------------
+ 
+ Column: believable
+ Type: str
+ Non-Null Count: 24864
+ Null Count: 2367998
+ Unique Values: 2
+ Top 20 Frequent Values:
+   BELIEVABLE_BY_MANY: 22987 (0.96%)
+   BELIEVABLE_BY_FEW: 1877 (0.08%)
+ ------------------------------
+ 
+ Column: harmful
+ Type: str
+ Non-Null Count: 24864
+ Null Count: 2367998
+ Unique Values: 2
+ Top 20 Frequent Values:
+   CONSIDERABLE_HARM: 18092 (0.76%)
+   LITTLE_HARM: 6772 (0.28%)
+ ------------------------------
+ 
+ Column: validationDifficulty
+ Type: str
+ Non-Null Count: 24864
+ Null Count: 2367998
+ Unique Values: 2
+ Top 20 Frequent Values:
+   EASY: 16292 (0.68%)
+   CHALLENGING: 8572 (0.36%)
+ ------------------------------
+ 
+ Column: misleadingOther
+ Type: int64
+ Non-Null Count: 2392862
+ Null Count: 0
+ Unique Values: 2
+ Top 20 Frequent Values:
+   0: 2137056 (89.31%)
+   1: 255806 (10.69%)
+ Numerical Statistics:
+   count: 2392862.0
+   mean: 0.1069037830012763
+   std: 0.30899094498282664
+   min: 0.0
+   25%: 0.0
+   50%: 0.0
+   75%: 0.0
+   max: 1.0
+ ------------------------------
+ 
+ Column: misleadingFactualError
+ Type: int64
+ Non-Null Count: 2392862
+ Null Count: 0
+ Unique Values: 2
+ Top 20 Frequent Values:
+   0: 1355396 (56.64%)
+   1: 1037466 (43.36%)
+ Numerical Statistics:
+   count: 2392862.0
+   mean: 0.43356700052071534
+   std: 0.49556710868786435
+   min: 0.0
+   25%: 0.0
+   50%: 0.0
+   75%: 1.0
+   max: 1.0
+ ------------------------------
+ 
+ Column: misleadingManipulatedMedia
+ Type: int64
+ Non-Null Count: 2392862
+ Null Count: 0
+ Unique Values: 2
+ Top 20 Frequent Values:
+   0: 2206591 (92.22%)
+   1: 186271 (7.78%)
+ Numerical Statistics:
+   count: 2392862.0
+   mean: 0.07784443900233277
+   std: 0.2679266920600955
+   min: 0.0
+   25%: 0.0
+   50%: 0.0
+   75%: 0.0
+   max: 1.0
+ ------------------------------
+ 
+ Column: misleadingOutdatedInformation
+ Type: int64
+ Non-Null Count: 2392862
+ Null Count: 0
+ Unique Values: 2
+ Top 20 Frequent Values:
+   0: 1997286 (83.47%)
+   1: 395576 (16.53%)
+ Numerical Statistics:
+   count: 2392862.0
+   mean: 0.1653150077187903
+   std: 0.3714646868915083
+   min: 0.0
+   25%: 0.0
+   50%: 0.0
+   75%: 0.0
+   max: 1.0
+ ------------------------------
+ 
+ Column: misleadingMissingImportantContext
+ Type: int64
+ Non-Null Count: 2392862
+ Null Count: 0
+ Unique Values: 2
+ Top 20 Frequent Values:
+   0: 1227611 (51.30%)
+   1: 1165251 (48.70%)
+ Numerical Statistics:
+   count: 2392862.0
+   mean: 0.4869695786886164
+   std: 0.4998302837233191
+   min: 0.0
+   25%: 0.0
+   50%: 0.0
+   75%: 1.0
+   max: 1.0
+ ------------------------------
+ 
+ Column: misleadingUnverifiedClaimAsFact
+ Type: int64
+ Non-Null Count: 2392862
+ Null Count: 0
+ Unique Values: 2
+ Top 20 Frequent Values:
+   0: 1747656 (73.04%)
+   1: 645206 (26.96%)
+ Numerical Statistics:
+   count: 2392862.0
+   mean: 0.2696377810337579
+   std: 0.4437717097486931
+   min: 0.0
+   25%: 0.0
+   50%: 0.0
+   75%: 1.0
+   max: 1.0
+ ------------------------------
+ 
+ Column: misleadingSatire
+ Type: int64
+ Non-Null Count: 2392862
+ Null Count: 0
+ Unique Values: 2
+ Top 20 Frequent Values:
+   0: 2255878 (94.28%)
+   1: 136984 (5.72%)
+ Numerical Statistics:
+   count: 2392862.0
+   mean: 0.05724692857339872
+   std: 0.23231388313396908
+   min: 0.0
+   25%: 0.0
+   50%: 0.0
+   75%: 0.0
+   max: 1.0
+ ------------------------------
+ 
+ Column: notMisleadingOther
+ Type: int64
+ Non-Null Count: 2392862
+ Null Count: 0
+ Unique Values: 2
+ Top 20 Frequent Values:
+   0: 2286971 (95.57%)
+   1: 105891 (4.43%)
+ Numerical Statistics:
+   count: 2392862.0
+   mean: 0.044252865397168745
+   std: 0.20565642945605747
+   min: 0.0
+   25%: 0.0
+   50%: 0.0
+   75%: 0.0
+   max: 1.0
+ ------------------------------
+ 
+ Column: notMisleadingFactuallyCorrect
+ Type: int64
+ Non-Null Count: 2392862
+ Null Count: 0
+ Unique Values: 2
+ Top 20 Frequent Values:
+   0: 2128542 (88.95%)
+   1: 264320 (11.05%)
+ Numerical Statistics:
+   count: 2392862.0
+   mean: 0.11046186533113903
+   std: 0.31346464346483505
+   min: 0.0
+   25%: 0.0
+   50%: 0.0
+   75%: 0.0
+   max: 1.0
+ ------------------------------
+ 
+ Column: notMisleadingOutdatedButNotWhenWritten
+ Type: int64
+ Non-Null Count: 2392862
+ Null Count: 0
+ Unique Values: 2
+ Top 20 Frequent Values:
+   0: 2378498 (99.40%)
+   1: 14364 (0.60%)
+ Numerical Statistics:
+   count: 2392862.0
+   mean: 0.006002853486745161
+   std: 0.0772452052256573
+   min: 0.0
+   25%: 0.0
+   50%: 0.0
+   75%: 0.0
+   max: 1.0
+ ------------------------------
+ 
+ Column: notMisleadingClearlySatire
+ Type: int64
+ Non-Null Count: 2392862
+ Null Count: 0
+ Unique Values: 2
+ Top 20 Frequent Values:
+   0: 2307257 (96.42%)
+   1: 85605 (3.58%)
+ Numerical Statistics:
+   count: 2392862.0
+   mean: 0.035775151262379526
+   std: 0.18572911519320864
+   min: 0.0
+   25%: 0.0
+   50%: 0.0
+   75%: 0.0
+   max: 1.0
+ ------------------------------
+ 
+ Column: notMisleadingPersonalOpinion
+ Type: int64
+ Non-Null Count: 2392862
+ Null Count: 0
+ Unique Values: 2
+ Top 20 Frequent Values:
+   0: 2219854 (92.77%)
+   1: 173008 (7.23%)
+ Numerical Statistics:
+   count: 2392862.0
+   mean: 0.07230170398460087
+   std: 0.2589868637913403
+   min: 0.0
+   25%: 0.0
+   50%: 0.0
+   75%: 0.0
+   max: 1.0
+ ------------------------------
+ 
+ Column: trustworthySources
+ Type: int64
+ Non-Null Count: 2392862
+ Null Count: 0
+ Unique Values: 2
+ Top 20 Frequent Values:
+   1: 2070052 (86.51%)
+   0: 322810 (13.49%)
+ Numerical Statistics:
+   count: 2392862.0
+   mean: 0.8650946021960314
+   std: 0.3416225698338315
+   min: 0.0
+   25%: 1.0
+   50%: 1.0
+   75%: 1.0
+   max: 1.0
+ ------------------------------
+ 
+ Column: summary
+ Type: str
+ Non-Null Count: 2392859
+ Null Count: 3
+ Unique Values: 2152438
+ Top 20 Frequent Values:
+   This video is a marketing strategy of a dropshipping outlet, which may get its products from platforms like AliExpress.     Be aware that there’s a risk that products may be counterfeit, unfit for use and lack legal safety compliance.    Here are  articles regarding dropshipping:  https://www.bbc.co.uk/news/technology-53759932  https://www.vice.com/en/article/7kxepa/ twitter-users-are-warning-each-other-about-its-junk-ads-with-community-notes  https://www.vice.com/en/article/4a3ak9/ twitters-verified-scam-store-accounts-thrive-as-humans-flee-the-site: 2573 (0.11%)
+   NNN: 2389 (0.10%)
+   資産家や有名人、企業等を騙る、お金配りやPayPay配布詐欺等が横行しています。    ○記事  ① Xでの「お金配り」投稿に注意　特殊詐欺グループが関与か   https://nordot.app/1139706578399822471  ②X（旧Twitter）お金あげますお金配り詐欺に注意！知らないうちに運び屋になる仕組みや目的を解説   https://koneta.nifty.com/koneta_detail/1141008020764_1.htm  ③“paypay配布”ってマジ！？怪しさ満点のお金配りアカウントに突撃してみた   https://otakuma.net/archives/2024040802.html    ○想定される被害  ・特殊詐欺に巻き込まれる  ・金銭を騙し取られる  ・迷惑DM等が届くような  る    ○参考  ・取材  https://www3.nhk.or.jp/news/special/net-koukoku/article/article_17.html    ・目的  https://internetwatch.  impress.co.jp/docs/column/dlis/1445583.html  https://news.yahoo.co.jp/expert/articles/ 41f86b011cc90c9036a6b2564965bc132582634b  https://www.all-senmonka.jp/moneyizm/77501/  https://securitynews.so-net.ne.jp/ topics/sec_20066.html  https://mame-yaro.com/present/: 1709 (0.07%)
+   This post contains an advertisement for a gambling website.    It violates X's prohibition on promoting gambling contentand   breaches intellectual property rules by using copyrighted videos without permission for monetization.    https:/business.x.  com/en/help/ads-policies/ads-content-policies/gambling-content: 1230 (0.05%)
+   Engagement Farming:    This is a practice where a content creator makes a statement with a promise of something in return  for a comment and or like with no real intention of fulfilling that promise.     This is against the terms of services of  X.     https://x.com/elonmusk/status/1781183251731677264?lang=en    https://t.co/XlUqBw05oI: 1058 (0.04%)
+   This product is being marketed by a dropshipping outlet, typically sourcing its inventory from platforms like AliExpress.Be   aware that there’s a risk that products may be counterfeit, unfit for use, and lack legal safety compliance.     Some  articles regarding dropshipping: https://www.bbc.co.uk/news/technology-53759932 https://www.vice.com/en/article/7kxepa/ twitter-users-are-warning-each-other-about-its-junk-ads-with-community-notes https://www.vice.com/en/article/4a3ak9/ twitters-verified-scam-store-accounts-thrive-as-humans-flee-the-site: 962 (0.04%)
+   このアカウントは、根拠のない地震予測を繰り返し行っています。    現在、科学的に検証され確立された地震予知や予測の手法はありません。  地震を予知や測  する情報は科学的根拠のないデマであることに注意する必要があります。    気象庁｜地震予知について  https://www.jma.go.jp/jma/kishou/knowfaq/  faq24.html    日本は地震国であり、地震が起こらない地域はありません。根拠のない情報に左右されることなく、日頃から地震に備えることが重要す。:  827  (0.03%)
+   資産家や有名人、企業等を騙る詐欺が横行しています。    ○記事  ① Xでの「お金配り」投稿に注意　特殊詐欺グループが関与か  https://nordot.app/ 1139706578399822471  https://twitter.com/sasakitoshinao/status/1767688021816529315  ②Twitterで「お金配り」に当選したところ詐欺片 棒 を担がされてしまった手口が恐ろしい  https://togetter.com/li/1946785  (①掲載期間終了時は同事例②参照)    ○被害  ・特殊詐欺に巻き込まる  ・ 金 銭を騙し取られる  ・迷惑DM等が届くようになる    ○参考  ・取材  https://www3.nhk.or.jp/news/special/net-koukoku/articlearticle_17.  html    ・目的  https://internet.watch.impress.co.jp/docs/column/dlis/1445583.html  https://news.yahoo.co.jpexpert/articles/  41f86b011cc90c9036a6b2564965bc132582634b  https://www.all-senmonka.jp/moneyizm/77501/  https:/securitynews.so-net.ne.jp/  topics/sec_20066.html  https://mame-yaro.com/present/: 792 (0.03%)
+   This post contains an advertisement for a gambling website.    It violates X's prohibition on promoting gambling contentand   breaches intellectual property rules by using copyrighted photos without permission for monetization.    https:/business.x.  com/en/help/ads-policies/ads-content-policies/gambling-content: 769 (0.03%)
+   資産家や有名人、企業等を騙るお金配りやPayPay配布詐欺等が横行しています。    ○記事  ① Xでの「お金配り」投稿に注意　特殊詐欺グループが関与か   https://nordot.app/1139706578399822471  ②X（旧Twitter）お金あげますお金配り詐欺に注意！知らないうちに運び屋になる仕組みや目的を解説   https://koneta.nifty.com/koneta_detail/1141008020764_1.htm  ③“paypay配布”ってマジ！？怪しさ満点のお金配りアカウントに突撃してみた   https://otakuma.net/archives/2024040802.html    ○想定される被害  ・特殊詐欺に巻き込まれる  ・金銭を騙し取られる  ・迷惑DM等が届くような  る    ○参考  ・取材  https://www3.nhk.or.jp/news/special/net-koukoku/article/article_17.html    ・目的  https://internetwatch.  impress.co.jp/docs/column/dlis/1445583.html  https://news.yahoo.co.jp/expert/articles/ 41f86b011cc90c9036a6b2564965bc132582634b  https://www.all-senmonka.jp/moneyizm/77501/  https://securitynews.so-net.ne.jp/ topics/sec_20066.html  https://mame-yaro.com/present/    ※見分け方の例  ・当選実績タグがない  ・当選者のIDの発表がない: 723 (0.03%)
+   🚨 WARNING 🚨    ⚠️ Cryptocurrency Scam ⚠️    This is a scam &amp; is not posted from the official @Tesla verified  account.     It is a false promotion using Musk &amp; his companies for publicity in an attempt to steal personal  information &amp;/or other assets.     https://www.techarp.com/crime/elon-musk-bitcoin-ethereum-scam/    https://wwwforbes.  com/sites/mattnovak/2023/07/23/spacex-crypto-scams-featuring-elon-musks-photo-still-common-on-twitter/    https:/consumer.  ftc.gov/articles/what-know-about-cryptocurrency-and-scams    https://www.bitdefender.com/blog/hotforsecurity/ twitter-and-youtube-crypto-scams-are-rampant-what-do-they-have-in-common/    https://consumer.ftc.gov/node/77130   https://  help.x.com/en/rules-and-policies/financial-scam: 717 (0.03%)
+   This account has sold out to Stake.  This post contains an advertisement for a gambling website. It violates X'sprohibition   on promoting gambling content.    Please report this account as it is against ToS.    https://business.x.comen/help/  ads-policies/ads-content-policies/gambling-content: 705 (0.03%)
+   The post serves as promotion for an adult service, and as such violates X's stated policies:     https://business.twitter. com/en/help/ads-policies/ads-content-policies/adult-or-sexual-products-and-services.html    https://help.twitter.com/en/ rules-and-policies/paid-partnerships     Posts containing inappropriate content can also be “Reported” as Spam: https:/help.  twitter.com/en/rules-and-policies/x-report-violation: 604 (0.03%)
+   This video is a marketing strategy of a dropshipping outlet, which may get its products from platforms like AliExpress.     Be aware that there’s a risk that products may be counterfeit, unfit for use, &amp; lack legal safety compliance.    Here  are articles on dropshipping: https://www.bbc.co.uk/news/technology-53759932  https://www.vice.com/en/article/7kxepa/ twitter-users-are-warning-each-other-about-its-junk-ads-with-community-notes  https://www.vice.com/en/article/4a3ak9/ twitters-verified-scam-store-accounts-thrive-as-humans-flee-the-site: 593 (0.02%)
+   This video is a marketing strategy of a dropshipping outlet, which may get its products from platforms like AliExpress and  Temu.    Be aware that there’s a risk that products may be counterfeit, unfit for use and lack legal safety compliance.     Information about dropshipping:  https://www.bbc.co.uk/news/technology-53759932  https://www.vice.com/en/article/7kxepa/ twitter-users-are-warning-each-other-about-its-junk-ads-with-community-notes  https://www.vice.com/en/article/4a3ak9/ twitters-verified-scam-store-accounts-thrive-as-humans-flee-the-site: 562 (0.02%)
+   何ら根拠のない予測を頻繁に投稿することで、偶然の的中を狙い続けるアカウントです。    現在、科学的に検証され確立された地震予知や予測の手法はありませ ん。  地震を予知や予測する情報は科学的根拠のないデマであることに注意する必要があります。    気象庁｜地震予知について  https://www.jma.go.jp/ jma/kishou/know/faq/faq24.html      日本は地震国であり、地震が起こらない地域はありません。  根拠のない情報に左右されることなく日頃から地震備  えることが重要です。: 527 (0.02%)
+   著名人や資産家を騙る特殊詐欺が横行しています    ○記事  ① Xでの「お金配り」投稿に注意　特殊詐欺グループが関与か  https://nordot.app/ 1139706578399822471  https://twitter.com/sasakitoshinao/status/1767688021816529315  ②Twitterで「お金配り」に当選したところ詐欺片 棒 を担がされてしまった手口が恐ろしい  https://togetter.com/li/1946785  (①の掲載期間終了時は同事例の②参照)    ○被害  ・特殊詐欺に巻き込れ る   ・金銭を騙し取られる  ・迷惑メッセージが届く  ・フィードバックした者が一覧される為、愚者欄が形成され詐欺の標的になる    ○参考  ・取材  https:// www3.nhk.or.jp/news/special/net-koukoku/article/article_17.html    ・目的  https://internet.watch.impress.co.jpdocs/ column/ dlis/1445583.html  https://news.yahoo.co.jp/expert/articles/41f86b011cc90c9036a6b2564965bc132582634b  https:/www.  all-senmonka.jp/moneyizm/77501/  https://securitynews.so-net.ne.jp/topics/sec_20066.html  https://mame-yaro.compresent/      同様の手口でノートが必要な投稿があれば、   #ノート推奨 と入力して引用ポストをお願いします: 509 (0.02%)
+   お金配りや財物の交付、財産上不法な利益を得させる等のＸ上の投稿には、一般的に特殊詐欺グループの関与が疑われます。    https://news.yahoo.co.jp/ articles/7074da701b2bc2f33463acca855682e57603e900    これらは不当な利益を得ること、フォロワーを増やしてアカウント転売という２つの目的がる  とされ、振込手数料を奪われる、個人情報の抜き取り、ポップアップ詐欺に遭う、口座を不正な振り込みの受け取り先として利用されるなどのリスクが指摘さてい ま す。    https://www.all-senmonka.jp/moneyizm/77501/    https://koneta.nifty.com/koneta_detail/1141008020764_1.htm    https:// nlab.itmedia.co.jp/research/articles/10753/    この類のアカウントからの被害に遭わないように注意することが必要です。    ※本文コ ピー等は控え てください。各協力者は自力で個々のポストに合う文章を作成してください。: 504 (0.02%)
+   Please exercise caution if purchasing from this store as it is part of an AI generated network of stores selling drop  shipped products. The products may be priced higher than normal, be unfit for purpose and may not be shipped at all.   More   info: https://www.bbc.co.uk/news/technology-53759932 : 489 (0.02%)
+   This post contains an undisclosed ad for Stake, which violates X's partnership rules and policies.     &quot;Posts thatare   part of a Paid Partnership published as an organic Post must include #ad indicating the commercial nature of suchcontent.&  quot;    https://help.x.com/en/rules-and-policies/paid-partnerships-policy: 483 (0.02%)
+   ... and 2152418 more unique values.
+ ------------------------------
+ 
+ Column: isMediaNote
+ Type: int64
+ Non-Null Count: 2392862
+ Null Count: 0
+ Unique Values: 2
+ Top 20 Frequent Values:
+   0: 2257239 (94.33%)
+   1: 135623 (5.67%)
+ Numerical Statistics:
+   count: 2392862.0
+   mean: 0.05667815360852402
+   std: 0.23122664823914243
+   min: 0.0
+   25%: 0.0
+   50%: 0.0
+   75%: 0.0
+   max: 1.0
+ ------------------------------
+ 
+ Column: isCollaborativeNote
+ Type: int64
+ Non-Null Count: 2392862
+ Null Count: 0
+ Unique Values: 1
+ Top 20 Frequent Values:
+   0: 2392862 (100.00%)
+ Numerical Statistics:
+   count: 2392862.0
+   mean: 0.0
+   std: 0.0
+   min: 0.0
+   25%: 0.0
+   50%: 0.0
+   75%: 0.0
+   max: 0.0
+ ------------------------------
+ Language Analysis Report for datas/notes-00000.tsv
+ Total Rows: 2392862
+ ------------------------------
+ Language Distribution:
+   en: 1502712 (62.80%)
+   es: 217625 (9.09%)
+   ja: 203578 (8.51%)
+   pt: 138442 (5.79%)
+   fr: 117801 (4.92%)
+   de: 52130 (2.18%)
+   tr: 28717 (1.20%)
+   pl: 19223 (0.80%)
+   it: 17532 (0.73%)
+   nl: 13453 (0.56%)
+   he: 13256 (0.55%)
+   ar: 7350 (0.31%)
+   ca: 6447 (0.27%)
+   id: 6274 (0.26%)
+   fi: 5541 (0.23%)
+   cs: 4320 (0.18%)
+   vi: 4306 (0.18%)
+   fa: 4037 (0.17%)
+   sv: 3707 (0.15%)
+   hr: 3128 (0.13%)
+   af: 2321 (0.10%)
+   unknown: 2066 (0.09%)
+   no: 1660 (0.07%)
+   tl: 1531 (0.06%)
+   hi: 1467 (0.06%)
+   th: 1374 (0.06%)
+   da: 1332 (0.06%)
+   ru: 1193 (0.05%)
+   ko: 1175 (0.05%)
+   sl: 1161 (0.05%)
+   el: 1035 (0.04%)
+   ro: 915 (0.04%)
+   so: 699 (0.03%)
+   et: 698 (0.03%)
+   ur: 576 (0.02%)
+   cy: 537 (0.02%)
+   sk: 493 (0.02%)
+   hu: 431 (0.02%)
+   mk: 304 (0.01%)
+   sq: 295 (0.01%)
+   bg: 293 (0.01%)
+   sw: 273 (0.01%)
+   lt: 270 (0.01%)
+   ta: 264 (0.01%)
+   zh-cn: 234 (0.01%)
+   lv: 198 (0.01%)
+   zh-tw: 148 (0.01%)
+   ml: 87 (0.00%)
+   mr: 79 (0.00%)
+   uk: 63 (0.00%)
+   ne: 53 (0.00%)
+   te: 21 (0.00%)
+   kn: 14 (0.00%)
+   bn: 11 (0.00%)
+   gu: 10 (0.00%)
+   pa: 2 (0.00%)
