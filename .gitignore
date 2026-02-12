@@ -211,3 +211,5 @@ __marimo__/
 datas/
 
 .sqlite3
+note_data.sqlite3
+note_data_20250211_noteonly.sqlite3
