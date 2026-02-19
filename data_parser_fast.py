@@ -5,6 +5,10 @@ import sys
 from typing import List, Optional, Generator
 from tqdm import tqdm
 import datetime as dt
+from langdetect import detect, DetectorFactory, LangDetectException
+
+# Ensure consistent results
+DetectorFactory.seed = 0
 
 # Increase CSV field size limit for large fields
 csv.field_size_limit(sys.maxsize)
@@ -35,6 +39,7 @@ class NoteData:
         self.summary = row.get('summary', "")
         self.isMediaNote = int(float(row.get('isMediaNote', 0) or 0))
         self.isCollaborativeNote = int(float(row.get('isCollaborativeNote', 0) or 0))
+        self.note_language = detect_language(self.summary)
 
 class NoteStatusHistoryData:
     def __init__(self, row: dict):
@@ -112,6 +117,16 @@ class BatSignalsData:
         self.apiSmallFeedEligibleTimestamp = int(float(row.get('apiSmallFeedEligibleAtMillis', row.get('apiSmallFeedEligibleTimestamp', 0)) or -1))
         self.apiLargeFeedEligibleTimestamp = int(float(row.get('apiLargeFeedEligibleAtMillis', row.get('apiLargeFeedEligibleTimestamp', 0)) or -1))
 
+def detect_language(text):
+    if not isinstance(text, str) or not text.strip():
+        return "unknown"
+    try:
+        return detect(text)
+    except LangDetectException:
+        return "unknown"
+    except Exception:
+        return "error"
+
 def Make_DB() -> str:
     print("Creating DB...")
 
@@ -144,7 +159,8 @@ def Make_DB() -> str:
         trustworthySources INTEGER,
         summary TEXT,
         isMediaNote INTEGER,
-        isCollaborativeNote INTEGER
+        isCollaborativeNote INTEGER,
+        note_language TEXT
     )
     """)
     conn.commit()
@@ -370,9 +386,9 @@ def main() -> None:
     for path in notes_path_list:
         process_tsv_in_chunks(path, NoteData, insert_note_data, db_path)
 
-    print("Processing note status history data...")
-    for path in note_status_history_path_list:
-        process_tsv_in_chunks(path, NoteStatusHistoryData, insert_note_status_history, db_path)
+    # print("Processing note status history data...")
+    # for path in note_status_history_path_list:
+    #     process_tsv_in_chunks(path, NoteStatusHistoryData, insert_note_status_history, db_path)
 
     # print("Processing ratings data...")
     # for path in ratings_path_list:

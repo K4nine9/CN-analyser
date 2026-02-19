@@ -1,0 +1,2 @@
+DB Path: note_data_20260216_224901.sqlite3
+Path List: ['datas\\notes-00000.tsv']
